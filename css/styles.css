@@ -14,11 +14,59 @@ h2{
     font-family: 'Open Sans', sans-serif;
     font-style: italic;
     color: #5a5a5a;
+    display: inline-block;
+    padding-bottom: 20px;
+    position: relative;
+}
+.o_s h2:before, .prizes h2:before, .news h2:before{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 1px;
+    bottom: 0;
+    border-bottom: 2px solid #ED145B;
+    left: 10%;
+}
+.download h2:before, .about h2:before{
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 1px;
+    bottom: 0;
+    border-bottom: 2px solid #ED145B;
 }
 h3{
     font-family: 'Open Sans', sans-serif;
     font-style: italic;
     color: #5a5a5a;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.download h3:before{
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 1px;
+    bottom: 0;
+    border-bottom: 2px solid #ED145B;
+}
+.header h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 10px;
+    position: relative;
+}
+.header h1:before, .a_ii h2:before{
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 1px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 2px solid #ED145B;
 }
 
 .tags{
@@ -346,6 +394,7 @@ h3{
 .container2{
     margin: 10px;
     background-color: #f4f4f4;
+    text-align: left;
 }
 .text{
     padding: 10px;
