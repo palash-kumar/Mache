@@ -18,7 +18,7 @@ h2{
     padding-bottom: 20px;
     position: relative;
 }
-.o_s h2:before, .prizes h2:before, .news h2:before{
+.o_s h2:before, .detail h2:before, .news h2:before{
     content: "";
     position: absolute;
     width: 80%;
@@ -395,6 +395,9 @@ h3{
     margin: 10px;
     background-color: #f4f4f4;
     text-align: left;
+}
+.news a{
+    padding-top: 20px;
 }
 .text{
     padding: 10px;
