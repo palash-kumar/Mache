@@ -319,6 +319,11 @@ h3{
 .joinus h2, .joinus button{
     display: inline;
     color: white;
+    font-style: normal;
+}
+.joinus b{
+
+    font-weight: bolder;
 }
 .joinus button{
 
