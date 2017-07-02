@@ -13,3 +13,16 @@ $(document).ready(function() {
         }
     );
 });
+
+$(document).ready(function(){
+    $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        if (scroll > 700) {
+            $(".navbar").css("background" , "rgba(61,61,61, .5)");
+        }
+
+        else{
+            $(".navbar").css("background" , "transparent");
+        }
+    })
+});
